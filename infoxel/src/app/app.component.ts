@@ -43,7 +43,7 @@ export class AppComponent implements OnInit {
   }
 
   showMore() {
-    this.show = true;
+    this.show = !this.show;
   }
 
 
